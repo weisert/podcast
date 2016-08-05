@@ -18,5 +18,7 @@ for i in range(1, 67):
   file_url = template.format(i)
   download(file_url)
 
+download('https://golangshow.com/cdn/episodes/interview_bred.mp3', '029.mp3')
+download('https://golangshow.com/cdn/episodes/interview_rob.mp3', '030.mp3')
 download('https://golangshow.com/cdn/episodes/055_xyz.mp3', '055.mp3')
 
